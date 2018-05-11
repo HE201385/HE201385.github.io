@@ -798,6 +798,14 @@ button:focus {
   margin-right: auto;
   width: 25%;
 }
+
+.tab-content2 {
+	overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .heures {
 	display: block;
 	overflow: hidden;
