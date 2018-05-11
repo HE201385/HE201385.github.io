@@ -417,7 +417,7 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
+  background: url(../img/Louvain2.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
   overflow: hidden;
@@ -792,52 +792,33 @@ button:focus {
 /* ==========================================================================
   8. Portfolio Section
    ========================================================================== */
-.item-boxes {
-  text-align: center;
-  padding: 0px 15px;
-  margin-bottom: 15px;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+.tab-content {
+	overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.heures {
+	display: block;
+	overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
-.item-boxes .icon {
-  width: 60px;
-  height: 60px;
-  text-align: center;
-  border: 1px solid #f1f1f1;
-  display: inline-block;
-  border-radius: 30px;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
 
-.item-boxes .icon i {
-  font-size: 26px;
-  line-height: 60px;
-  color: #61D2B4;
+.portfolio-item .shot-item, .portfolio-item .shot-item img {
+    width: 100px;
+    height: 100px;
 }
-
-.item-boxes h4 {
-  font-size: 20px;
-  font-weight: 700;
-  margin-bottom: 10px;
+.portfolio-item .shot-item, .portfolio-item .shot-item img,  .portfolio-item .shot-item a{
+    width: 100px;
+    height: 100px;
 }
-
-.item-boxes:hover .icon {
-  background: #61D2B4;
-}
-
-.item-boxes:hover .icon i {
-  color: #fff;
-}
-
 /* ==========================================================================
-  6. Features Section Style
-   ========================================================================== */
-#portefolios {
+	9. Pricing Table
+	========================================================================== */
+#pricing {
   background: url(../img/bg1.jpg) fixed no-repeat;
   background-size: cover;
   color: #fff;
@@ -845,15 +826,15 @@ button:focus {
   position: relative;
 }
 
-#portefolios .section-title {
+#pricing .section-title {
   color: #fff;
 }
 
-#portefolios .section-subtitle {
+#pricing .section-subtitle {
   color: #fff;
 }
 
-#portefolios .icon {
+#pricing .icon {
   display: inline-block;
   width: 60px;
   height: 60px;
@@ -863,11 +844,11 @@ button:focus {
   z-index: 1;
 }
 
-#portefolios .box-item {
+#pricing .box-item {
   padding: 15px 0;
 }
 
-#portefolios .box-item .icon {
+#pricing .box-item .icon {
   border: 1px solid #61D2B4;
   text-align: center;
   float: left;
@@ -877,7 +858,7 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#portefolios .box-item .icon i {
+#pricing .box-item .icon i {
   color: #61D2B4;
   font-size: 24px;
   line-height: 60px;
@@ -887,11 +868,11 @@ button:focus {
   transition: all 0.2s linear;
 }
 
-#portefolios .box-item .text {
+#pricing .box-item .text {
   padding-left: 80px;
 }
 
-#portefolios .box-item .text h4 {
+#pricing .box-item .text h4 {
   color: #61D2B4;
   font-weight: 700;
   font-size: 16px;
@@ -899,73 +880,22 @@ button:focus {
   line-height: 22px;
 }
 
-#portefolios .box-item .text p {
+#pricing .box-item .text p {
   font-size: 14px;
   line-height: 26px;
 }
 
-#portefolios .box-item:hover .icon {
+#pricing .box-item:hover .icon {
   background: #61D2B4;
 }
 
-#portefolios .box-item:hover .icon i {
+#pricing .box-item:hover .icon i {
   color: #ffffff;
 }
 
-#portefolios .show-box img {
+#pricing .show-box img {
   position: absolute;
   bottom: -120px;
-}
-/* ==========================================================================
-	9. Pricing Table
-	========================================================================== */
-.pricing-table {
-  padding: 0px 0px 40px 0px;
-  margin: 0 auto;
-  margin-bottom: 5px;
-  border: transparent;
-  text-align: center;
-  background-color: #FFFFFF;
-  border: 1px solid #f1f1f1;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-.pricing-table:hover {
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
-}
-
-.pricing-table .pricing-details h2 {
-  font-size: 26px;
-  font-weight: 700;
-  color: #333;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  background: #f1f1f1;
-  padding: 30px 0;
-}
-
-.pricing-table .pricing-details span {
-  display: inline-block;
-  font-size: 48px;
-  font-weight: 400;
-  color: #61D2B4;
-  margin-bottom: 20px;
-}
-
-.pricing-table .pricing-details ul {
-  margin-bottom: 35px;
-}
-
-.pricing-table .pricing-details ul li {
-  padding: 10px;
-  font-size: 15px;
-  border-bottom: 1px dotted #f1f1f1;
-}
-
-.table-left {
-  margin-top: 20px;
 }
 
 /* ==========================================================================
